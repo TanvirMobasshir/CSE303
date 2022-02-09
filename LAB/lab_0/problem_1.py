@@ -1,7 +1,7 @@
 def valid(a, b, c):
-    if a > b + c: return False
-    if b > a + c: return False
-    if c > a + b: return False
+    if a >= b + c: return False
+    if b >= a + c: return False
+    if c >= a + b: return False
     return True
 
 
