@@ -1,9 +1,8 @@
 string = "Practice Problems to Drill List Comprehension in Your Head."
 words = string.split()
-
-small_word = []
+words_len = {}
 
 for word in words:
-    if len(word) < 5: small_word.append(word)
+    words_len[word] = len(word)
 
-print(small_word)
+print(words_len)

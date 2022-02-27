@@ -1,4 +1,4 @@
-nums = [i for i in range(1,1001)]
+nums = [i for i in range(1, 1001)]
 num = []
 
 for i in nums:
