@@ -1,8 +1,4 @@
 string = "Practice Problems to Drill List Comprehension in Your Head."
 words = string.split()
-words_len = {}
-
-for word in words:
-    words_len[word] = len(word)
-
+words_len = {word: len(word) for word in words}
 print(words_len)
